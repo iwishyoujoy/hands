@@ -13,7 +13,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           yt-url: ${{ secrets.YOUTRACK_URL }}
           yt-token: ${{ secrets.YOUTRACK_TOKEN }}
-          yt-column-field: "Состояние"
+          yt-column-field: "State"
           yt-project-id: "HANDS"
-          yt-column-triggers: "в процессе"
-          yt-column-target: "в ревью"
+          yt-column-triggers: "In progress"
+          yt-column-target: "In review"
